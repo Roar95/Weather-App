@@ -74,3 +74,9 @@ body {
 footer {
   font-size: 10px;
 }
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
