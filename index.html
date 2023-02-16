@@ -38,8 +38,13 @@
       </div>
     </h2>
 
-    <form class="search" id="search-form">
-      <input type="search" placeholder="Search" id="search-text-input" />
+    <form class="mb-3 search" id="search-form">
+      <input
+        type="search"
+        placeholder="Search"
+        id="search-text-input"
+        autocomplete="off"
+      />
       <button class="button" type="submit" id="searchButton">Search</button>
       <button class="button" type="submit" id="currentButton">Current</button>
     </form>
@@ -103,35 +108,7 @@
     <hr />
 
     <h3>5 day forecast</h3>
-    <div class="fiveDayForecastContainer">
-      <div class="row">
-        <div class="col">
-          <div class="colA">Tuesday</div>
-          <i class="fa-solid fa-sun icon"></i>
-          <div class="colC">Sunny</div>
-        </div>
-        <div class="col">
-          <div class="colA">Wednesday</div>
-          <i class="fa-regular fa-snowflake icon"></i>
-          <div class="colC">Light Snow</div>
-        </div>
-        <div class="col">
-          <div class="colA">Thursday</div>
-          <i class="fa-solid fa-cloud-bolt icon"></i>
-          <div class="colC">Thunderstorms</div>
-        </div>
-        <div class="col">
-          <div class="colA">Friday</div>
-          <i class="fa-solid fa-cloud-showers-heavy icon"></i>
-          <div class="colC">Showers</div>
-        </div>
-        <div class="col">
-          <div class="colA">Saturday</div>
-          <i class="fa-solid fa-wind icon"></i>
-          <div class="colC">Windy</div>
-        </div>
-      </div>
-    </div>
+    <div class="fiveDayForecastContainer" id="forecast"></div>
     <script src="src/index.js"></script>
     <hr />
     <footer>
