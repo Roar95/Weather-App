@@ -59,13 +59,13 @@ body {
   line-height: 2.5;
   font-size: x-large;
 }
-.weather-forecast-date {
+.colA {
   margin-bottom: 10px;
 }
-.weather-forecast-temperatures {
+.colC {
   margin-top: 10px;
 }
-.weather-forecast-date img {
+.icon {
   font-size: 30px;
 }
 .iconA {
